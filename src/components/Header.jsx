@@ -72,7 +72,7 @@ const Header = () => {
     });
   };
   return (
-    <section>
+    <section className="sticky top-0 left-0 right-0 z-50 bg-white">
       <header className="container mx-auto px-5 flex justify-between items-center py-4   ">
         <div>
           <img className="hidden md:block w-16" src={Images.Logo} alt="logo" />
