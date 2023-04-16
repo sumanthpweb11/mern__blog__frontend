@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BreadCrumbs from "../../components/BreadCrumbs";
 import MainLayout from "../../components/MainLayout";
 import { Images } from "../../constants";
@@ -28,6 +29,7 @@ const ArticleDetailPage = () => {
             src={Images.Post1}
             alt="post details"
           />
+          <Link className="/blog?category=selectedCategory">Education</Link>
         </article>
       </section>
     </MainLayout>
